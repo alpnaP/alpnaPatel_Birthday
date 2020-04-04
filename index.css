@@ -1,0 +1,582 @@
+ /* If you can't see it just hit space in here*/
+ body {
+    font-family:'Wendy One', sans-serif;
+    width: fit-content;
+
+}
+
+body {
+background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+background-image: -webkit-radial-gradient(#374566, #010203);
+background-image: -moz-radial-gradient(#374566, #010203);
+background-image: -o-radial-gradient(#374566, #010203);
+background-image: radial-gradient(#374566, #010203);
+background-image: url(backgroundsection.png);
+width: fit-content;
+
+}
+span {
+    text-transform: uppercase;
+}
+.container {
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+.balloon1 {
+    width: 738px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 70px;
+    position: relative;
+}
+.balloon1 > div {
+    width: 104px;
+    height: 140px;
+    background: rgba(5, 60, 105, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 30px;
+    box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+    -webkit-transform-origin: bottom center;
+}
+.balloon1 > div:nth-child(1) {
+    background: rgba(5, 60, 105, 0.9);
+    left: 0;
+    box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(1):before {
+    color: rgba(218, 109, 21, 0.26);
+}
+.balloon1 > div:nth-child(2) {
+    background: rgba(242, 112, 45, 0.9);
+    left: 120px;
+    box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(2):before {
+    color: rgba(242, 112, 45, 0.9);
+}
+.balloon1 > div:nth-child(3) {
+    background: rgba(45, 181, 167, 0.9);
+    left: 240px;
+    box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(3):before {
+    color: rgba(45, 181, 167, 0.9);
+}
+.balloon1 > div:nth-child(4) {
+    background: rgba(190, 61, 244, 0.9);
+    left: 360px;
+    box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+    -webkit-animation: balloon1 5s ease-in-out infinite;
+    -moz-animation: balloon1 5s ease-in-out infinite;
+    -o-animation: balloon1 5s ease-in-out infinite;
+    animation: balloon1 5s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(4):before {
+    color: rgba(190, 61, 244, 0.9);
+}
+.balloon1 > div:nth-child(5) {
+    background: rgba(180, 224, 67, 0.9);
+    left: 480px;
+    box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+    -webkit-animation: balloon3 5s ease-in-out infinite;
+    -moz-animation: balloon3 5s ease-in-out infinite;
+    -o-animation: balloon3 5s ease-in-out infinite;
+    animation: balloon3 5s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(5):before {
+    color: rgba(180, 224, 67, 0.9);
+}
+.balloon1 > div:nth-child(6) {
+    background: rgba(242, 194, 58, 0.9);
+    left: 600px;
+    box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+    -webkit-animation: balloon2 3s ease-in-out infinite;
+    -moz-animation: balloon2 3s ease-in-out infinite;
+    -o-animation: balloon2 3s ease-in-out infinite;
+    animation: balloon2 3s ease-in-out infinite;
+}
+.balloon1 > div:nth-child(6):before {
+    color: rgba(97, 25, 25, 0.9);
+}
+.balloon1 > div:before {
+    color: rgba(182, 15, 97, 0.9);
+    position: absolute;
+    bottom: -11px;
+    left: 52px;
+    content:"▲";
+    font-size: 1em;
+}
+.balloon {
+    width: 738px;
+    margin: 0 auto;
+    padding-top: 0px;
+    position: relative;
+}
+.balloon > div {
+    width: 104px;
+    height: 140px;
+    background: rgba(182, 15, 97, 0.9);
+    border-radius: 0;
+    border-radius: 80% 80% 80% 80%;
+    margin: 0 auto;
+    position: absolute;
+    padding: 10px;
+    box-shadow: inset 17px 7px 10px rgba(182, 15, 97, 0.9);
+    -webkit-transform-origin: bottom center;
+}
+.balloon > div:nth-child(1) {
+    background: rgba(182, 15, 97, 0.9);
+    left: 0;
+    box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(1):before {
+    color: rgba(182, 15, 97, 0.9);
+}
+.balloon > div:nth-child(2) {
+    background: rgba(242, 112, 45, 0.9);
+    left: 120px;
+    box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(2):before {
+    color: rgba(242, 112, 45, 0.9);
+}
+.balloon > div:nth-child(3) {
+    background: rgba(45, 181, 167, 0.9);
+    left: 240px;
+    box-shadow: inset 10px 10px 10px rgba(35, 140, 129, 0.9);
+    -webkit-animation: balloon4 6s ease-in-out infinite;
+    -moz-animation: balloon4 6s ease-in-out infinite;
+    -o-animation: balloon4 6s ease-in-out infinite;
+    animation: balloon4 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(3):before {
+    color: rgba(45, 181, 167, 0.9);
+}
+.balloon > div:nth-child(4) {
+    background: rgba(190, 61, 244, 0.9);
+    left: 360px;
+    box-shadow: inset 10px 10px 10px rgba(173, 14, 240, 0.9);
+    -webkit-animation: balloon1 5s ease-in-out infinite;
+    -moz-animation: balloon1 5s ease-in-out infinite;
+    -o-animation: balloon1 5s ease-in-out infinite;
+    animation: balloon1 5s ease-in-out infinite;
+}
+.balloon > div:nth-child(4):before {
+    color: rgba(190, 61, 244, 0.9);
+}
+.balloon > div:nth-child(5) {
+    background: rgba(180, 224, 67, 0.9);
+    left: 480px;
+    box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
+    -webkit-animation: balloon3 5s ease-in-out infinite;
+    -moz-animation: balloon3 5s ease-in-out infinite;
+    -o-animation: balloon3 5s ease-in-out infinite;
+    animation: balloon3 5s ease-in-out infinite;
+}
+.balloon > div:nth-child(5):before {
+    color: rgba(180, 224, 67, 0.9);
+}
+.balloon > div:nth-child(6) {
+    background: rgba(242, 194, 58, 0.9);
+    left: 600px;
+    box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
+    -webkit-animation: balloon2 3s ease-in-out infinite;
+    -moz-animation: balloon2 3s ease-in-out infinite;
+    -o-animation: balloon2 3s ease-in-out infinite;
+    animation: balloon2 3s ease-in-out infinite;
+}
+.balloon > div:nth-child(6):before {
+    color: rgba(242, 194, 58, 0.9);
+}
+.balloon > div:before {
+    color: rgba(182, 15, 97, 0.9);
+    position: absolute;
+    bottom: -11px;
+    left: 52px;
+    content:"▲";
+    font-size: 1em;
+}
+span {
+    font-size: 4.8em;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -27px;
+}
+/*BALLOON 1 4*/
+@-webkit-keyframes balloon1 {
+    0%, 100% {
+        -webkit-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -webkit-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@-moz-keyframes balloon1 {
+    0%, 100% {
+        -moz-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -moz-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@-o-keyframes balloon1 {
+    0%, 100% {
+        -o-transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        -o-transform: translateY(-20px) rotate(8deg);
+    }
+}
+@keyframes balloon1 {
+    0%, 100% {
+        transform: translateY(0) rotate(-6deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(8deg);
+    }
+}
+/* BAllOON 2 5*/
+@-webkit-keyframes balloon2 {
+    0%, 100% {
+        -webkit-transform: translateY(0) rotate(6eg);
+    }
+    50% {
+        -webkit-transform: translateY(-30px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon2 {
+    0%, 100% {
+        -moz-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -moz-transform: translateY(-30px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon2 {
+    0%, 100% {
+        -o-transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        -o-transform: translateY(-30px) rotate(-8deg);
+    }
+}
+@keyframes balloon2 {
+    0%, 100% {
+        transform: translateY(0) rotate(6deg);
+    }
+    50% {
+        transform: translateY(-30px) rotate(-8deg);
+    }
+}
+/* BAllOON 0*/
+@-webkit-keyframes balloon3 {
+    0%, 100% {
+        -webkit-transform: translate(0, -10px) rotate(6eg);
+    }
+    50% {
+        -webkit-transform: translate(-20px, 30px) rotate(-8deg);
+    }
+}
+@-moz-keyframes balloon3 {
+    0%, 100% {
+        -moz-transform: translate(0, -10px) rotate(6eg);
+    }
+    50% {
+        -moz-transform: translate(-20px, 30px) rotate(-8deg);
+    }
+}
+@-o-keyframes balloon3 {
+    0%, 100% {
+        -o-transform: translate(0, -10px) rotate(6eg);
+    }
+    50% {
+        -o-transform: translate(-20px, 30px) rotate(-8deg);
+    }
+}
+@keyframes balloon3 {
+    0%, 100% {
+        transform: translate(0, -10px) rotate(6eg);
+    }
+    50% {
+        transform: translate(-20px, 30px) rotate(-8deg);
+    }
+}
+/* BAllOON 3*/
+@-webkit-keyframes balloon4 {
+    0%, 100% {
+        -webkit-transform: translate(10px, -10px) rotate(-8eg);
+    }
+    50% {
+        -webkit-transform: translate(-15px, 20px) rotate(10deg);
+    }
+}
+@-moz-keyframes balloon4 {
+    0%, 100% {
+        -moz-transform: translate(10px, -10px) rotate(-8eg);
+    }
+    50% {
+        -moz-transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+@-o-keyframes balloon4 {
+    0%, 100% {
+        -o-transform: translate(10px, -10px) rotate(-8eg);
+    }
+    50% {
+        -o-transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+@keyframes balloon4 {
+    0%, 100% {
+        transform: translate(10px, -10px) rotate(-8eg);
+    }
+    50% {
+        transform: translate(-15px, 10px) rotate(10deg);
+    }
+}
+h1 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 3.5em;
+    }
+#Data {
+    position: relative;
+    top: 200px;
+}
+
+
+/* .section-img{
+    background-image: url(images/backgroundsection.png);
+    /* margin-top: 762px; */
+.backimg {
+    float: left;
+    width: auto;
+}
+
+.back-img{
+    height: 388px;
+    /* width: 252px; */
+    margin-left: -178px;
+    z-index: -1;
+}
+.frontimg{
+    float: right;
+    z-index: 1111;
+    border: 10px solid white;
+    border-radius: 15px;
+    margin-left: -155px;
+
+}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+    width: 100%;
+    margin-top: -50px;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: -webkit-fill-available;
+    height: auto;
+    margin-top: -70px;
+	padding: 100px 50px 120px 50px;
+	color: white
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #0597ff69 10%, #fd08085c 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: linear-gradient( 135deg, rgba(12,12,12,0.8) 10%, #8fa7bb 100%);
+}
+
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: beige;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .container1 {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .container1::after {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    right: -17px;
+    background-color: beige;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid beige;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent beige;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid  beige;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent beige transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -16px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: beige;
+    position: relative;
+    border-radius: 6px;
+  }
+  .card_img{
+    width: 100px;
+    height: 95px;
+    float: left;
+    padding: 0px 10px;
+    border-radius: 15px;
+  }
+  .container1.left:hover{
+    z-index: 10;
+    border: 1px solid sandybrown;
+  }
+  .container1.right:hover{
+    z-index: 10;
+    border: 1px solid sandybrown;
+  }
+  .carousel_img{
+    width:205px;
+    height:350px !important;
+    float: left;
+  }
+  #Data {
+    position: relative;   
+    top: 200px;
+  }
+  video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    width: 100% !important;
+}
+iframe{
+    position: relative;   
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    width: 100% !important;
+}
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  
