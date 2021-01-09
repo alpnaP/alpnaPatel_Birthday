@@ -1,7 +1,7 @@
- /* If you can't see it just hit space in here*/
+/* If you can't see it just hit space in here*/
  body {
     font-family:'Wendy One', sans-serif;
-    width: fit-content;
+   width: 100% !important;;
 
 }
 
@@ -11,8 +11,7 @@ background-image: -webkit-radial-gradient(#374566, #010203);
 background-image: -moz-radial-gradient(#374566, #010203);
 background-image: -o-radial-gradient(#374566, #010203);
 background-image: radial-gradient(#374566, #010203);
-background-image: url(backgroundsection.png);
-width: fit-content;
+  background: #fff url('https://subtlepatterns.com/patterns/gplaypattern.png') repeat;
 
 }
 span {
@@ -413,10 +412,9 @@ header .overlay{
     height: auto;
     margin-top: -70px;
 	padding: 100px 50px 120px 50px;
-	color: white
-	text-shadow: 1px 1px 1px #333;
-    background-image: linear-gradient( 135deg, #0597ff69 10%, #fd08085c 100%);
 	
+	text-shadow: 1px 1px 1px #333;
+  	
 }
 
 h1 {
@@ -450,10 +448,9 @@ button:hover{
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: linear-gradient( 135deg, rgba(12,12,12,0.8) 10%, #8fa7bb 100%);
+   
 }
 
-  }
   
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
@@ -577,6 +574,14 @@ iframe{
     justify-content: center;
     top: 200px;
     width: 100% !important;
+}
+.colour{
+    color: red;
+}
+.avatar {
+   
+    width: calc(100%/3.5);
+        margin: 2%;
 }
   /* Media queries - Responsive timeline on screens less than 600px wide */
   
